@@ -46,7 +46,7 @@
 }
 
 .texto-main{
-    background-image: url("/assets/bg_cidade.png");
+    background-image: url("assets/bg_cidade.png");
     background-size: cover;
     max-width: 896px;
     height: 528px;
