@@ -46,7 +46,7 @@
 }
 
 .texto-main{
-    background-image:url("assets/bg main.png");
+    background-image: url("bg-section01.png");
     background-size: cover;
     max-width: 896px;
     height: 528px;
