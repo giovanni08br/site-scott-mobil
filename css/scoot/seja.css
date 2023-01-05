@@ -1,0 +1,100 @@
+.c-seja{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1000px;
+    margin-bottom: 100px;
+}
+.c-seja-text{
+    max-width: 500px;
+    padding-right: 60px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    border: solid 3px;
+    border-radius:8px 0px 0px 8px;
+}
+.c-seja-img{
+    max-width: 500px;
+    background-color: #FFE501;
+    border: solid 3px;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.c-seja-img img{
+    width: 158px;
+    height: 253px;
+    padding-left: 125px;
+    padding-right: 167px;
+    padding-top: 30px;
+}
+.c-seja h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 122%;
+    padding-left: 60px;
+    margin: 0px;
+    margin-top: 78px;
+}
+
+.c-seja-text p{
+    padding-left: 60px;
+    padding-right: 60px;
+    margin-bottom: 78px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+}
+
+@media(max-width:800px){
+    .c-seja-text p{
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-bottom: 78px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 120%; 
+    }
+    .c-seja h1{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 122%;
+        padding-left: 20px;
+        margin: 0px;
+        margin-top: 78px;
+    }
+    .c-seja-text{
+        max-width: 330px;
+        padding-right: 60px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 150%;
+        border: solid 3px;
+        border-radius:8px 0px 0px 8px;
+    }
+    .c-seja-img{
+        max-width: 300px;
+        background-color: #FFE501;
+        border: solid 3px;
+        border-radius: 0px 8px 8px 0px;
+        padding-left:30px;
+        padding-right:30px;
+        padding-top: 50px;
+    }
+    .c-seja-img img{
+        width: 100px;
+        height: 170px;
+        padding-left: 60px;
+        padding-right: 70px;
+        padding-top: 10px;
+    }
+    .c-seja{
+        margin-left: 50px;
+        margin-bottom: 50px;
+    }

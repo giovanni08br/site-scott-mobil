@@ -1,0 +1,101 @@
+.c-dados-steps{
+    display: flex;
+    justify-content: center;
+    gap:140px;
+    margin-bottom: 40px;
+    
+}
+.c-dados-steps h3{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    color: #16002C;
+    margin: 0px;
+}
+.c-dados-steps h4{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #16002C;
+    margin: 0px;
+}
+.c-dados h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    color: #16002C;
+    margin: 0px;
+    padding: 20px;
+}
+.c-dados{
+    background-color: #F3EDED;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.c-usuarios{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.c-veiculos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+.c-cidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+@media(max-width:800px){
+    .c-dados h2{
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 150%;
+        color: #16002C;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 20px;
+    }
+    .c-dados-steps h3{
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        color: #16002C;
+        margin: 0px;
+    }
+    .c-dados-steps h4{
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #16002C;
+        margin: 0px;
+    }
+    .c-dados-steps{
+        display: flex;
+        justify-content: center;
+        gap:70px;
+        margin-bottom: 40px;
+    }
+    .c-dados-steps img{
+        max-width: 100px;
+    }
+    .c-dados{
+        background-color: #F3EDED;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 0px;
+        height: 350px;
+    }
+}

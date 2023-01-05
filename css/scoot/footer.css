@@ -1,0 +1,72 @@
+.footer-bg{
+    background-color: #16002C;
+}
+.footer-bg h2{
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: white;
+}
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-left: 153px;
+    padding-right: 153px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    gap: 140px;
+}
+.c-footer-local li{
+    margin-bottom: 10px;
+}
+.c-footer-sobre li{
+    margin-bottom: 10px;
+}
+.c-footer-ajuda li{
+    margin-bottom: 10px;
+}
+.c-footer-redes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.c-redes-icon{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.c-footer-apps{
+    display: flex;
+    flex-direction: column;
+}
+.c-footer-apps img{
+    max-width: 130px;
+    margin-bottom: 10px;
+}
+
+@media(max-width:800px){
+    .footer-bg h2{
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 21px;
+        color: white;
+    }
+    .footer-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 153px;
+        padding-right: 153px;
+        padding-top: 20px;
+        padding-bottom: 40px;
+        gap: 80px;
+    }
+    .c-footer-apps img{
+        max-width: 100px;
+        margin-bottom: 10px;
+    }
+
+}

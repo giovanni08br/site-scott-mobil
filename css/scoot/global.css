@@ -1,0 +1,14 @@
+body{
+    margin: 0px;
+}
+.header-ptpt{
+    background-color: white;
+}
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
