@@ -46,7 +46,7 @@
 }
 
 .texto-main{
-    background-image: url("/assets/bicicletapreta.png");
+    background-image: url("assets/bg-main");
     background-size: cover;
     max-width: 896px;
     height: 528px;
