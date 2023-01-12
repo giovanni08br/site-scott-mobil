@@ -46,7 +46,7 @@
 }
 
 .l-bgmain{
-    background-image: url("/assets/background-mova.jpg");
+    background-image: url("./assets/background-mova.jpg");
     /* background-size: cover; */
     /* max-width: 896px; */
     height: 528px;
