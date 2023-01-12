@@ -3,6 +3,8 @@ body{
 }
 .header-ptpt{
     background-color: orange;
+    position: fixed;
+    width: 100vw;
 }
 ul{
     margin: 0px;
