@@ -45,23 +45,23 @@
     background-color: black;
 }
 
-.texto-main{
-    background-image: url("/assets/bicicletapreta.png");
-    background-size: cover;
-    max-width: 896px;
+.l-bgmain{
+    background-image: url("/assets/background-mova.jpg");
+    /* background-size: cover; */
+    /* max-width: 896px; */
     height: 528px;
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     margin-bottom: 40px;
 }
-.texto-main h1{
+.l-bgmain h1{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 40px;
     line-height: 1.225;
 }
-.texto-main h2{
+.l-bgmain h2{
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
